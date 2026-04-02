@@ -1,0 +1,343 @@
+<style type="text/css">
+
+<!--
+
+A {text-decoration: none; color:#667788; }
+
+a:hover{color:#8899AA; background-color:#EFF1F3; }
+
+-->
+
+
+
+BODY,td, table
+
+{ 
+
+background: #FFFFFF;
+
+color: #555555;
+
+font: 15px tahoma;
+
+scrollbar-base-color: #B5B7BA;
+
+scrollbar-arrow-color: #888A8F;
+
+} 
+h1 {
+font-size : 18px;
+line-height : 20px;
+color : #253F58;
+background-color : transparent;
+}
+.box {
+  background: #ffffff;
+  color : #ffffff;
+  padding : 5px;
+  margin: 10px;
+  font: arial;
+  border-color : #335170;
+  border-width : 1px;
+  }
+
+.box1 {
+  background: #ffffff;
+  color : #333333;
+  padding : 5px;
+  margin: 10px;
+  font: arial;
+  border-color : #ffffff;
+  border-width : 1px;
+  }
+
+.box2 {
+  background: #ffffff;
+  color : #333333;
+  padding : 5px;
+  margin: 10px;
+  font: arial;
+border: 1px dotted #667788;
+  }
+
+.box3 {
+  background: #eeeeee;
+  color : #333333;
+  padding : 5px;
+  margin: 10px;
+  font: arial;
+border: 1px dotted #000000;
+  }
+
+.sidelink {
+	font-family:arial, verdana,helvetica,trebuchet ms, georgia,sans-serif;
+	margin:0px 0px 0px 0px;
+	letter-spacing: 2px;
+	text-align: left;
+	margin-bottom: 8px;font-size:10px;
+	font-weight:demi-bold;
+	line-height:12px;
+}
+.sidelink a{display:block;
+	border:1px solid #97A6B6;
+	border-bottom-width: 0px; 
+	padding:5px; 
+	padding-left: 5px;
+	text-decoration:none;
+	background-color: #667788;font-size:10px;
+	font-weight:demi-bold;
+	line-height:10px;
+color: #ffffff; 
+
+
+}
+.sidelink a:hover { 
+	color: #000000; 
+	text-decoration:none;
+background-color: #CBDEF0;
+font-size:10px;
+	font-weight:demi-bold;
+	line-height:10px;
+
+	}
+
+SELECT
+
+{
+
+ background: #FFFFFF;
+
+ color: #000000;
+
+ font-size: 13px;
+
+}
+
+
+
+INPUT
+
+{
+
+ background: #FFFFFF;
+
+ color: #000000;
+
+ font-size: 13px;
+
+}
+
+
+
+TEXTAREA
+
+{
+
+ background: #FFFFFF;
+
+ color: #000000;
+
+ font-size: 13px;
+
+}
+
+
+
+P
+
+{
+
+ font: 15px tahoma;
+
+}
+
+
+
+Table
+
+{
+
+ font: 15px arial;
+
+}
+
+
+
+H2
+
+{
+
+ font-size: 17px;
+
+ font-family: universal, tahoma, universallight;
+
+ font-weight: bold;
+
+}
+
+
+H3
+
+{
+
+ font-size: 15px;
+
+ font-family: universal, tahoma, universallight;
+
+ font-weight: bold;
+
+}
+
+
+.nav
+
+{
+
+ font-family: arial, verdana;
+
+ font-size: 15px;
+
+ background: #FFFFFF;
+
+ border-width: 0px;
+
+}
+
+
+
+.suggest
+
+{
+
+ font-family: arial, verdana;
+
+ font-size: 15px;
+
+ background: #FDFDFE;
+
+ border-style: solid;
+
+ border-width: 1px;
+
+ border-color: #F4F5F5;
+
+}
+
+
+
+.link
+
+{
+
+ font-family: arial, verdana;
+
+ font-size: 15px;
+
+ background: #FDFEFF;
+ border-style: solid;
+
+ border-width: 1px;
+
+ border-color: #EAECED;
+
+}
+
+
+
+.category
+
+{
+
+ font-family: arial, verdana;
+
+ font-size: 15px;
+
+ background: #FDFEFE;
+
+
+ border-width: 1px;
+
+ border-color: #C5C9CD;
+
+}
+
+
+
+.commentposter
+
+{
+
+ font-family: arial, verdana;
+
+ font-size: 15px;
+
+ background: #FAFAFA;
+
+ border-style: outset;
+
+ border-width: 2px;
+
+ border-color: #DDDDDF;
+
+}
+
+
+
+.comment
+
+{
+
+ padding: 5px;
+
+ font-family: arial, verdana;
+
+ font-size: 15px;
+
+ background: #FEFEFE;
+
+ border-style: solid;
+
+ border-width: 2px;
+
+ border-color: #DFE1E2;
+
+}
+
+.textarea {
+	font-family: arial,verdana,helvetica;
+     font-size : 13pt;
+	color: #555555;
+	background-color: transparent;
+	border-top: dotted 1px #000000;
+	border-bottom: dotted 1px #000000;
+	border-right: dotted 1px #000000;
+	border-left: dotted 1px #000000;
+}
+
+.newlinks
+
+{
+
+ text-align: left;
+
+ padding: 2px;
+
+ border-color: #D8E2EC;
+
+ border-style: solid;
+
+ border-width: 1px;
+
+ margin: 3px;
+
+}
+
+
+
+</style>
+
+
+
+
+
+

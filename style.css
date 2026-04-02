@@ -1,0 +1,15 @@
+
+body {font-family:Sans-Serif, Times, Verdana, Times New Roman,  Serif; padding-left: 10px;padding-right: 10px; color: navy;background-image: url(billeder/gifs/bg.gif);}
+body.ref {font-family:Sans-Serif, Times, Verdana, "Times New Roman",  Serif; padding-left: 10px;padding-right: 10px; color: navy; font-size: 14px;}
+table {border-color:#DC143C}
+table.menu {background: darkgray; color:black}
+
+
+table.kal {background:white; font-size: 14px; }
+h3 {color: #DC143C;}
+a:hover {
+	font-weight: bold;
+	color: white;
+	background: blue
+
+

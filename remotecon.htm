@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+  <title>DAB radio</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="generator" content="NoteTab Pro 4.86c">
+  <meta name="author" content="Bent Nedergaard">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <script type="text/javascript" language="javascript"  src="includes/kontaktmig.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="billeder/back.gif" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+
+
+<h2>Fjernbetjening af en PC - hvordan?</h2>
+
+<P>Har du nogle gange brug for at hjælpe andre med deres PC? Dine forældre, for eksempel, som måske ikke bor i nærheden. Det er ikke altid
+nemt at forklare over telefonen, hvad man skal gøre, og de andre er måske ikke gode til at beskrive det, de ser på skærmen.
+Eller måske er der nogle vigtige oplysninger, der ligger på din PC derhjemme, mens du er ude at rejse?
+
+</P><P>Løsningen kan være at fjernbetjene PCen. Så kan man enten løse problemet selv, eller følg med på skærmen, mens den, du prøver at hjælpe,
+følger dine instrukser over telefonen.
+
+</P><P>Der findes forskellige gratis værktøjer, der kan gøre det. F.eks er der en i Windows XP, Forbindelse til Fjernskrivebord, som dog er mest
+beregnet til at bruge, når den anden PC er på samme netværk som din.
+
+</P><P>Så er der <a href="http://www.realvnc.com">RealVNC</a>, som findes i en gratis og en udvidet betalingsudgave.
+Den har jeg tidligere brugt med succes, men så fik mine forældre en router istedet for en ADSL modem. Nu har de mulighed for at tilslutte flere PCer til internet
+samtidig - og så er problemet: hvilken en er det, der skal fjernbetjenes? Set udefra, så har de alle det samme IP adresse (find din nuværende
+IP adresse ved f.eks at gå ind på en side som <a href="http://whatismyipaddress.com/">http://whatismyipaddress.com</a> ).
+Løsningen er lidt kompliceret, og hedder <i>port forwarding</i> - du skal omkonfiguere den router, der skal tillade at PCer bag den kan fjernstyres.
+Det er beskrevet på RealVNCs side, men det er lidt svært, og måske har du slet ikke lov til at ændre i routeren (og den er ihvertfald
+nok ikke noget, du kan forklare dine forældre over telefonen). Selv når port forwarding virker, har jeg oplevet at der ikke var 'hul igennem' for RealVNC.
+
+</P><P>En anden mulighed med RealVNC er at det er den, der vil fjernstyres, der initierer kontakten til din PC. har du selv kun en ADSL modem (eller en gammeldags modem),
+er der ingen problem, men hardu selv en router, så er det dig, der skal 'port forwarde'.
+
+</P><P>En helt anden løsning er ved brug af en tredje part - begge parter: den, der vil fjernstyres, og fjernstyreren, kontakter en tredje part, der
+formidler kontaken. Så er der ikke tvivl om hvilke PCer, der er tale om. Sådan en løsning har jeg fundet: se <a href="http://www.zolved.com/remote_control">http://www.zolved.com/remote_control</a>
+
+</P><P>For den, der vil fjernstyres, klik på <b>Share my Screen</b>. Klik på <b>Install</b>, og gem filen et sted. F.eksl på Skrivebord.
+
+</P><P>For den, der vil fjernstyre, klik på <b>View or Control</b> og på <b>Install</b>, og gem den. (Måske vil du gerne kunne begge veje).
+
+
+</P><P>De skal egentligt ikke installeres, bare køres hver gang. For den, der vil fjernstyres, klik på <b>Zolved Remote Control.exe</b> (som du hentede).
+Vælg den server (trejde part) der er tætteste (f.eks. London, UK - hvis ikke det virker, vælg en anden). Vælg om den, der skal hjælpe,
+skal kun kunne se (View Only), styre din PC med tastatur og mus (Control my PC), eller både styre PCen og kunne flytte filer fra og til den anden PC (Control and Browse Files).
+Klik på boksen om at du er enig med de vilkår, de beskriver. Så snak i telefonen med den, der vil hjælpe dig. Læs den 8-cifret nummer, der vises
+(der er en ny nummer hver gang). Klik på <b>Share my PC</b>
+
+</P><P>Den, der vil fjernstyre, starter sin <b>Zolved Remote Control Viewer.exe</b> som han har hentet. Indtast denne 8-cifret nummer, klik på boksen for at sige
+at du acceptere betingelserne, og <b>Connect</b>.
+
+</P><P>Hvad så med sikkerhed, kan du med rette spørge? Hvem er Zolved, hvorfor stiller de denne tjeneste gratis til rådighed, og kan det misbruges?
+Som så meget andet med computere, så må du selv vurdere risici, opveje fordele og ulemper. Zolved er aktiv i <i>Open Source</i> bevægelsen, den bevægelse,
+der har skabt bl.a. Linux, Firefox, Open Office m.m. Jeg har søgt på nettet, og har ikke kunne finde nogen, der advarer mod Zolved, eller skriver
+noget negativt om dem. Jeg bruger Zolved, men om du vil, må være din egen beslutning. Jeg vil dog sige, at når den, der vil hjælpes
+trykker på <b>Share my Screen</b>, skal du, som vil fjernstyre den PC allerede have indtastet cifrene, og ikke vente met at klikke på <b>Connect</b> -
+der kunne i prinicppet være nogen, der taster den 8-cifrede nummer ved et tilfælde lige inden du gør, og så er det dem, der overtager PCen.
+
+</P><P>Øverst på skærmbilledet hos dig, der fjernstyrer, er forskellige knappe, der gør det muligt at overføre filer frem og tilbage, sender Ctr-Alt-Del til den fjernstyrede PC, osv.
+Når du afslutter programmet, afbrydes forbindelsen. Den, hvis PC bliver fjernstyret, kan godt se, hvad du laver, men de kan også selv bruge PCen (så kan I slås om musen!)
+og kan afbryde forbindelsen, hvis de vil.
+
+</P><P>Hvis du vil hjælpe nogen med at opdatere PCen, skal den måske genstartes - måske flere gange. Når PCen lukkes ned, afbrydes forbindelsen
+og når den genstarter, skal forbindelsen oprettes en gang til. Det kan også ske, at forbindelsen 'falder ud', og skal oprettes igen (med ny 8-cifret tal hver gang) så regn med at
+skulle snakke sammen i telefonen, måske flere gange, for at koordinere det.
+</body>
+</html>
+
+
+
+
+
+
+
+
