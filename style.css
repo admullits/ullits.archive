@@ -15,21 +15,28 @@ a:hover {
 
 
 body {
-  margin-top: 50px !important;
+  font-family: Sans-Serif, Times, Verdana, "Times New Roman", Serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 50px !important;
+  color: navy;
+  background-image: url(billeder/gifs/bg.gif);
 }
 
 body::before {
   content: "This is an archived version of the page.";
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 50px;
-  line-height: 50px;
+  right: 0;
+  height: 40px;
+  line-height: 40px;
   background: #b00000;
-  color: white;
+  color: #ffffff;
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  z-index: 99999;
+  font-weight: bold;
+  z-index: 999999;
 }
